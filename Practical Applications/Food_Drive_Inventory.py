@@ -1,3 +1,27 @@
-import os 
+basket_items = ["Frozen Ham (50 Points)",
+    "Frozen Turkey (50 Points)",
+    "Canned Yams (5 Points)",
+    "Canned Corn (5 Points)",
+    "Canned Green beans (5 Points)",
+    "Canned Carrots (5 Points)",
+    "Canned Peas (5 Points)",
+    "Canned Fruit (5 Points)",
+    "Canned Pumpkin (5 Points)",
+    "Canned Milk (5 Points)",
+    "Instant Mashed Potatoes (8 Points)",
+    "Potatoes (5 Points)",
+    "Sugar (15 Points)",
+    "Flour (10 Points)",
+    "Cranberry Sauce (5 Points)",
+    "Pie Crust (8 Points)",
+    "Pie Filling, 0",
+    "Stuffing Mix, 0",
+    "Gravy Mix, 0",
+    "Bread mix, 0",
+    "Cookie Mix, 0",
+    "Cake Mix and Icing, 0",
+    "Cooking Oil, 0",
+    "Mac n Cheese, 0"]
 
-file = open("inventory.txt","w")
+with open ("inventory.txt","w") as file:
+    file.write(basket_items)
