@@ -1,3 +1,6 @@
+import json
+
+
 inventory = [
     {
         "name": "copper coin",
@@ -11,7 +14,7 @@ inventory = [
     },
 ]
 
-with open ("inventory.txt","w") as file:
+with open ("inventory.txt","r") as file:
     file.write("RPG Inventory\n")
     file.write (str(inventory))
 
